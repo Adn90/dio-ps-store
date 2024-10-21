@@ -1,0 +1,22 @@
+.menu-bar__container {
+	display: flex;
+	align-items: center;	
+	
+	position: fixed;
+	z-index: 999;
+
+	background-color: #ffffff;
+	width: 100%;
+	height: 40px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+.menu-bar__logo {
+	display: flex;
+	flex: 40%;	
+}
+
+.menu-bar__links {
+	display: flex;
+	flex: 60%;	
+}
